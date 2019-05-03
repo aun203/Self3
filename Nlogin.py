@@ -61,8 +61,8 @@ settings = {
     "checkContact": False,
     "checkPost": False,
     "kickMention": False,
-    "potoMention": True,
-    "delayMention": False,
+  #  "potoMention": True,
+   # "delayMention": False,
     "lang":"JP",
     "Wc": False,
     "Lv": False,
@@ -346,23 +346,23 @@ def mentionMembers(to, mid):
         line.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 
 def myhelp():
-    myHelp = """╔══════════════┓
-╠     คำสั่ง
-╚══════════════┛
-╔══════════════┓
-╠►Me ↔คอนแทค
-╠►Help1 ↔คำสั่งทั่วไป
-╠►Help2 ↔คำสั่งกลุ่ม
-╠►Help3 ↔คำสั่งตั้งค่า
-╠►Help4 ↔ คำสั่งมีเดีย
-╠►Help5 ↔ คำสั่งสิริ
-╠►Help6 ↔ คำสั่งแปลภาษา
-╠►บอทออน
-╠►แทค
-╠►ทีมบอท
-╠►Creator
-╠►Sp
-╰═ ✬١ढेืਹℓట่થ✭ 💢 »"""
+    myHelp = """
+     คำสั่ง
+
+
+Me ↔คอนแทค
+Help1 ↔คำสั่งทั่วไป
+Help2 ↔คำสั่งกลุ่ม
+Help3 ↔คำสั่งตั้งค่า
+Help4 ↔ คำสั่งมีเดีย
+Help5 ↔ คำสั่งสิริ
+Help6 ↔ คำสั่งแปลภาษา
+บอทออน
+แทค
+ทีมบอท
+Creator
+Sp
+ ✬١ढेืਹℓట่થ✭ 💢 https://keep.line.me/s/BjPlMKXI3d2cmZVhJomweJXoSJjIWHEx3eDnTX5X7DQ"""
     return myHelp
 
 def listgrup():
